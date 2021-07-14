@@ -1,0 +1,71 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* header section styles */
+header{
+    display: flex;
+    height: 650px;
+    color: white;
+    background-color: #2D25A0;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom: 70px;
+}
+.title .title-head{
+    width: 485px;
+} 
+/* .title{
+    margin-left: 143px;
+} */
+.title-head h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+.title-button{
+    display: flex;
+    flex-direction: row;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+}
+.title-button a{
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+}
+.title-button:hover{
+    background-color: seagreen;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.copa-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copa-head{
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    width: 556px;
+    height: 438px;
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 388px;
+    height: 428px;
+    margin-left: 150px;
+}
