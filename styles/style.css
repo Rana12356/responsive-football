@@ -95,3 +95,45 @@ main{
     width: 100%;
     border-radius: 5px;
 }
+/* footer styles */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* copyrights, social-info styles */
+
+.copyrights{
+    display: flex;
+    height: 213px;
+    width: 484px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column; 
+    margin: 0 0 60px; 
+}
+.logo img{
+    width: 100%;
+    height: 100px;
+}
+.social-info{
+    display: grid;
+    height: 32px;
+    width: 170px;
+    margin: 20px 0;
+    grid-template-columns: repeat(4, 1fr);
+}
+.social-info img{
+    width: 32px;
+    height: 32px;
+}
+.copyright{
+    width: 325px;
+    height: 30px;
+}
+.copyright h2{
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
